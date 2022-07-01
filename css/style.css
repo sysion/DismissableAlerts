@@ -69,7 +69,8 @@ button{
 	background-color: white;
 	position: relative;
 	opacity: 1;
-	transition: width 2s, height 2s, linear;
+	/*transition: width 2s, height 2s, linear;*/
+	transition: opacity 2s ease-out;
 }
 
 .fa-times{
